@@ -32,8 +32,11 @@
         "customJointTextureLayouts": []
     },
     "assets": {
-        "server": "",
-        "remoteBundles": [],
+        "server": "https://going2mars.github.io/mygame/",
+        "remoteBundles": [
+            "internal",
+            "main"
+        ],
         "subpackages": [],
         "preloadBundles": [
             {
