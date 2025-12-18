@@ -4,6 +4,13 @@
   <meta charset="utf-8">
 
   <title>Cocos Creator | tggame</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+    if ((Number(window.Telegram?.WebApp?.initData?.length) || 0) > 0) {
+      window.Telegram.WebApp.ready();
+      window.Telegram.WebApp.expand();
+    }
+  </script>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -35,7 +42,6 @@
   <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
   <link rel="stylesheet" type="text/css" href="style.f76d1.css"/>
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
 </head>
 <body>
@@ -58,7 +64,7 @@
 <script src="src/import-map.d29d5.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
-    System.import('./index.1c63f.js').catch(function(err) { console.error(err); })
+    System.import('./index.89d8d.js').catch(function(err) { console.error(err); })
 </script>
 
 </body>
